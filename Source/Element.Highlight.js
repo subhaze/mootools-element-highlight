@@ -3,7 +3,7 @@
 description: Sets full opacity to element that is moused over while dimming all other elements of same class.
 license: MIT-style
 authors: [Michael Russell]
-provides: [Element.hightlight]
+provides: [Element.highlight]
 requires: 
   core/1.2.4: [Element, Fx.Tween]
   more/1.2.4.4: [Element.Delegation]
