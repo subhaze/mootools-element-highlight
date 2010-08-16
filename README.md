@@ -1,6 +1,8 @@
 Element.highlight
 ===========
 
+Packager compatible.
+
 Sets full opacity to element that is moused over while dimming all other elements of same class.
 
 ![Screenshot](http://github.com/subhaze/mootools-element-highlight/raw/master/logo.png)
