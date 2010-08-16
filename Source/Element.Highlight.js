@@ -1,12 +1,21 @@
 /*
 ---
+
+name: Element.Highlight
+
 description: Sets full opacity to element that is moused over while dimming all other elements of same class.
+
 license: MIT-style
-authors: [Michael Russell]
-provides: [Element.highlight]
+
 requires: 
-  core/1.2.4: [Element, Fx.Tween]
-  more/1.2.4.4: [Element.Delegation]
+  - Core/Element
+  - Core/Fx.Tween
+  - More/Element.Delegation
+
+provides: Element.highlight
+
+authors: [Michael Russell]
+
 ...
 */
 

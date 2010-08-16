@@ -1,6 +1,16 @@
-name: Element Highlight
-author: subhaze
-category: Effects
-tags: [navigation, tween, element, effects]
-demo: http://mootools.net/shell/2jhSv/44/
-current: 1.03
+name: "ElementHighlight"
+
+exports: "ElementHighlight.js"
+
+author: "subhaze"
+
+category: "Effects"
+
+tags: "[navigation, tween, element, effects]"
+
+demo: "http://mootools.net/shell/2jhSv/44/"
+
+current: "v1.2"
+
+sources:
+  - "Source/Element.Highlight.js"
