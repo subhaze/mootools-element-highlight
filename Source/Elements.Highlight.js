@@ -20,7 +20,7 @@ authors: [Michael Russell]
 
 Elements.implement({
 
-	highlight: function( linkClass, opacity ) {
+	highlight: function( opacity ) {
 		var opacity = ( opacity ) ? opacity : .3,
 		    elems = this;
 		this.addEvents({
