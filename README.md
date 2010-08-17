@@ -1,7 +1,11 @@
-Element.highlight
+Elements.highlight
 ===========
 
 Packager compatible.
+
+Update 1:
+This plugin now implements Elements instead of Element and I took out the dependancy on Element.Delegation due to the fact that it seemed inefficient since it was using the
+mouseover mouseout events potentially cause the body tag to be always listening to the mouse movements.
 
 Sets full opacity to element that is moused over while dimming all other elements of same class.
 
@@ -11,9 +15,12 @@ How to use
 ----------
 
 JavaScript
-
-	$( 'link-container' ).highlight( 'link' );
 	
+	// Use any selector to grab elements that you wish to apply this effect to.
+	$$( '.link' ).highlight();
+	
+	// Over ride the default opacity value of .3
+	$$('.link').highlight(.5);
 HTML
 
 	<div id="link-container">
