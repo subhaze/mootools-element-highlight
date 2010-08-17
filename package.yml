@@ -10,7 +10,7 @@ tags: "[navigation, tween, element, effects]"
 
 demo: "http://mootools.net/shell/2jhSv/44/"
 
-current: "v1.2"
+current: "v1.3"
 
 sources:
   - "Source/Element.Highlight.js"
