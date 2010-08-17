@@ -1,6 +1,6 @@
-name: "ElementHighlight"
+name: "ElementsHighlight"
 
-exports: "ElementHighlight.js"
+exports: "ElementsHighlight.js"
 
 author: "subhaze"
 
@@ -13,4 +13,4 @@ demo: "http://mootools.net/shell/2jhSv/44/"
 current: "v1.3"
 
 sources:
-  - "Source/Element.Highlight.js"
+  - "Source/Elements.Highlight.js"
